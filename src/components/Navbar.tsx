@@ -52,10 +52,10 @@ export default function Navbar() {
             <button onClick={toggleTheme} className="text-gray-400 hover:text-white transition-colors" aria-label="Toggle theme">
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/Hammad-arshad18" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/hammad-arshad18" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="#contact" className="ml-4 px-5 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-dark rounded-full transition-colors">
