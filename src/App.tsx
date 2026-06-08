@@ -30,7 +30,7 @@ function Portfolio() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/admin/*" element={<AdminDashboard />} />
