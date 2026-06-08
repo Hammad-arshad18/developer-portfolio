@@ -1,10 +1,13 @@
 {
-  "name": "react-example",
+  "name": "developer-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://hammad-arshad18.github.io/developer-portfolio/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
