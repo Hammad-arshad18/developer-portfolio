@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import hammadPhoto from '../assets/hammad-professional.jpg';
 
 export default function About() {
   return (
@@ -44,10 +45,9 @@ export default function About() {
           
           <div className="relative mx-auto w-full max-w-sm">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500 relative z-10 w-full bg-surface border-2 border-border shadow-2xl">
-               {/* Just a pleasant placeholder image if real photo is missing */}
                <img 
-                 src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800&auto=format&fit=crop" 
-                 alt="Hammad setup" 
+                 src={hammadPhoto} 
+                 alt="Hammad Arshad" 
                  className="w-full h-full object-cover object-center"
                />
             </div>
