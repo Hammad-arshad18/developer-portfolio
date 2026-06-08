@@ -1,9 +1,9 @@
 {
-  "name": "developer-portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://hammad-arshad18.github.io/developer-portfolio/",
+  "homepage": "https://hammad-arshad18.github.io/portfolio/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "predeploy": "npm run build",
